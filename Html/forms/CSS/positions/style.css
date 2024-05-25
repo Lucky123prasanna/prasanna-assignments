@@ -1,0 +1,47 @@
+.indiaflag{
+
+    border: 1px solid black;
+    height: 200px;
+    width: 500px;
+    margin: 0;
+}
+.flag{
+    height: 100px;
+    width: 400px;
+    margin-right: 10px;
+}
+#top{
+
+    width: 400px;
+    height: 100px;
+    background: #FF671F;
+}
+#bottom{
+
+    width: 400px;
+    height: 100px;
+    background: #046A38;
+
+}
+#center{
+    width: 400px;
+    height: 100px;
+    background: #FFFFFF;
+
+}
+#ashokachakra img{
+
+    width: 100px;
+    height: 100px;
+
+}
+#ashokachakra{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#center{
+    align-items: center;
+}
+

@@ -1,0 +1,41 @@
+
+.header-logo {
+/* justify-content: space-around; */
+display: flex:
+
+}
+
+.ulist{
+    display: flex;
+    list-style: none;
+     /* justify-content: space-around; */
+    gap: 20%;    
+}
+.CEO{
+    display: flex;
+    width: 150px;
+    height: 150px;
+
+}
+
+.employ{
+    display: flex;
+}
+.employ img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+
+}
+.software{
+    position: absolute;
+    width: 150;
+    min-height: 150;
+    gap: 20%;
+}
+.CEO img{
+    width: 100px;
+    height: 100px;
+    display: block;
+
+}
