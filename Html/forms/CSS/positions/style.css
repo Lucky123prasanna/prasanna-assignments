@@ -1,47 +1,99 @@
-.indiaflag{
 
-    border: 1px solid black;
+
+.container{
+    
+    width: 300px;
     height: 200px;
-    width: 500px;
-    margin: 0;
+    border: 20px;
+    margin: auto;
+    background-color: #FF671F;
+    border-color:1px saddlebrown;
+   
 }
-.flag{
-    height: 100px;
-    width: 400px;
-    margin-right: 10px;
-}
-#top{
+.soffren{
+    /* border: #FF671F;
+    position: relative;
+    position: top; */
+height: 100px;
+width: 400px;
+margin-right: 10px;
 
+}
+
+#A1{
+    /* border: #046A38;
+    border: #FFFFFF;
+    border: #FF671F; */
     width: 400px;
     height: 100px;
     background: #FF671F;
 }
-#bottom{
 
+#A2{
     width: 400px;
     height: 100px;
-    background: #046A38;
-
+    background:#FFFFFF;
 }
-#center{
+#A3{
     width: 400px;
     height: 100px;
-    background: #FFFFFF;
-
+    background:#046A38;
 }
-#ashokachakra img{
 
+.circle{
+    height: 100px;
     width: 100px;
-    height: 100px;
-
+    position: relative;
+    left: 135px;
+    border-radius: 50%;
+    border: 5px solid navy
+    
 }
-#ashokachakra{
+.circle .line{
+    position: absolute;
+    height: 10px;
+    width: 150px;
+    background-color: navy;
+    border-radius: 3%;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#center{
-    align-items: center;
+    
 }
 
+    
+.line:nth-child(1){
+    transform: rotate(15deg);
+}
+
+.line:nth-child(2){
+    transform: rotate(30deg);
+}
+.line:nth-child(3){
+    transform: rotate(45deg);
+}
+.line:nth-child(4){
+    transform: rotate(60deg);
+}
+.line:nth-child(5){
+    transform: rotate(75deg);
+}
+.line:nth-child(6){
+    transform: rotate(90deg);
+}
+.line:nth-child(7){
+    transform: rotate(105deg);
+}
+.line:nth-child(8){
+    transform: rotate(120deg);
+}
+.line:nth-child(9){
+    transform: rotate(135deg);
+}
+.line:nth-child(10){
+    transform: rotate(150deg);
+}
+.line:nth-child(11){
+    transform: rotate(165deg);
+}
+.line:nth-child(12){
+    transform: rotate(180deg);
+}

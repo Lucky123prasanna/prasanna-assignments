@@ -1,0 +1,47 @@
+
+
+.container{
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 3px;
+    border-radius: 5px;
+    width: 100px;
+
+}
+
+
+@media(min-width:320px)and(max-width:480px){
+   background-color: solid; 
+
+
+}
+
+@media screen (){
+    
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
